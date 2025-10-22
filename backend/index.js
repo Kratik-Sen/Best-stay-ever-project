@@ -16,7 +16,7 @@ app.use(express.json())//not show undfined in req.body
 // to parse token in cookie
 app.use(cookieParser())
 app.use(cors({ // use this to remove cors error
-  origin: "http://localhost:5173", //not forget to remove / from http://localhost:5173/
+  origin: "https://best-stay-ever-project-frontend.onrender.com", //not forget to remove / from http://localhost:5173/
   credentials: true
 }))
 //middleware --------------------------------
