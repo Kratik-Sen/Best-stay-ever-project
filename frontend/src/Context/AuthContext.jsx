@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) { // use as prop ({children}) not as params (children)
-    const serverUrl = "http://localhost:3000"
+    const serverUrl = "https://best-stay-ever-project-backend.onrender.com"
 
     let [loading,setLoading]=useState(false)
 
